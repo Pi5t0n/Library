@@ -1,0 +1,79 @@
+/*###########################index.php#############################3*/
+.user_type h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+/*###########################form_login.php#############################3*/
+.login_register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: row;
+}
+
+/*##########################Form form_member.php##############################*/
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+/*##########################Form form_user_register###########################*/
+.form_user_register{
+    margin-top: 10vh;
+}
+.form_user_register h2{
+    margin-bottom: 5vh;
+}
+.form_user_register small{
+    margin-bottom: 5vh;
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.registration div{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    width: 100%;
+}
+
+
+/*####################################Footer####################################*/
+.social-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25vh;
+}
+
+/*####################################Cart####################################*/
+.params-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.inputs-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cartSection{
+    margin-top: 15vh;
+}
+
+
+

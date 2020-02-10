@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+
+html *{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+    background-image: url(../img/books_header2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    opacity: 0.5;
+
+}
+
+.header_class{
+    opacity: default;
+    padding-top: 15vh;
+    padding-left: 55vw;
+
+}
+
+body{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+}
+
+.allContent{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+    
