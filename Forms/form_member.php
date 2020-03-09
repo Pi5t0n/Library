@@ -5,12 +5,11 @@
         $penalty=true;
     }
     $_SESSION['penalty']  = $penalty;
-?>
-
-<script>    document.getElementById("login_register").style.visibility = "hidden";
-            document.getElementById("login_register").style.marginBottom = "0vh";
-            document.getElementById("login_register").style.marginTop = "0vh";
+?> 
+<script>
+    updateUserCart();
 </script>
+    
 <div class="welcome">
     <h1><?php echo("Welcome ".$user_name) ?></h1>
     <?php include("form_logout.php")?>
@@ -28,8 +27,11 @@
     include("DataBase/db_reservations.php");
     include("DataBase/db_add_book_cart.php");
     include("DataBase/db_rest_book_cart.php");
-    include("DataBase/db_delete_row_cart.php");?>
+    include("DataBase/db_delete_row_cart.php");
+    include("DataBase/db_guest_to_user_cart.php");?>
 </div>
+
+
 
 
 

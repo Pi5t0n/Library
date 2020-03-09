@@ -26,5 +26,6 @@
 <!--<section id="cartSection">section cartSection</section>
 <section id="cartSection2">section cartSection2</section>-->
 <section id="cartSection"></section>
+<section id="weatherSection"></section>
 <div></div>
 <?php include("Forms/footer.php")?>

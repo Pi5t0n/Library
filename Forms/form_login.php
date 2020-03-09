@@ -21,6 +21,17 @@
     <form method="post" action="">
             <input type="submit" class="btn btn-outline-secondary" name="user_register" value="Register!">
     </form>  
-    <?php include("form_shopping_cart.php")?>
+    <div>
+       <input type="image" onclick="showCartGuest()" src="../img/cart.png" alt="Submit">
+    </div>
+    <div>
+       <input type="image" onclick="showCartGuestCookie('session')" src="../img/cart_session.png" alt="Submit">
+    </div>
+    <div>
+       <input type="image" onclick="showCartGuestCookie('cookie')" src="../img/cookiCart.png" alt="Submit">
+    </div> 
+    <div>
+       <input type="image" onclick="weatherForm()" src="../img/weather.png" alt="Submit">
+    </div> 
 </div>
   

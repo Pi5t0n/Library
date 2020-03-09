@@ -105,6 +105,23 @@
                               </form>
                             </td> 
                         <?php endif;?>
+                        <?php if($user_type=="guest" and $book['books_sell']>0):?>
+                            <td>
+                              <form method="post" action="">
+                                  <button type="submit" onclick="saveBookLocalStorage(<?php echo $book['book_ID'] ?>)" name="book_to_cart_guest" value="<?php echo $book['book_ID'] ?>">To Cart!</button>
+                              </form>
+                            </td> 
+                            <td>
+                              <form method="post" action="">
+                                  <button type="submit" name="book_to_cart_cookie" value="<?php echo $book['book_ID'] ?>">To Cart Cookie!</button>
+                              </form>
+                            </td>  
+                            <td>
+                              <form method="post" action="">
+                                  <button type="submit" name="book_to_cart_session" value="<?php echo $book['book_ID'] ?>">To Cart Session!</button>
+                              </form>
+                            </td>                               
+                        <?php endif;?>
                       </tr>
                 <?php endforeach;?>  
             </table> 

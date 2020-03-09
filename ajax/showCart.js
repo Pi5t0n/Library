@@ -4,6 +4,7 @@ function showCart(){
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var myObj = JSON.parse(this.responseText);
+            //alert(this.responseText);
             //document.getElementById("cartSection").innerHTML = myObj[2].book_ID;
             //document.getElementById("cartSection").innerHTML = myObj.length;
             generateCart(myObj);
@@ -13,6 +14,7 @@ function showCart(){
     xmlhttp.send();
 }
 function generateCart(myObj){
+   
      var sectionTitle=document.createElement("H2"); //Title
         sectionTitle.innerHTML="Your Cart!"
      var cartTable=document.createElement("TABLE"); //Table for cart shopping
@@ -34,7 +36,9 @@ function generateCart(myObj){
     cartTable.appendChild(cartTableHeader);
     
     
-     var numBooksBought=myObj.length;
+     //var numBooksBought=myObj.length;
+     var numBooksBought=Object.keys(myObj).length;
+     
      var TotalPrice=0;
     
      for ( var i=0; i < numBooksBought; i++) { 

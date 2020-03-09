@@ -1,0 +1,1 @@
+ 	var key=zAmnmW7zwGx6FxEekfC5mnNoPkIW7H1A; 
